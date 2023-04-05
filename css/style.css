@@ -50,7 +50,7 @@ body {
 /* MAIN */
 
 main{
-  background-image: url(./img/ideal-kilo-diyeti.jpg);
+  background-image: url(/img/fondo.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   min-height: 70vh;
