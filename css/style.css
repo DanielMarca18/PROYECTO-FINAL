@@ -50,15 +50,19 @@ body {
 /* MAIN */
 
 main{
-  background-image: url(/img/fondo.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
   min-height: 70vh;
   padding: 10vh 3vw;
   display: flex;
   flex-direction: column;
   gap: 10vh;
   align-items: center;
+}
+.fondo{
+  /* background-image: url(/img/fondo.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  min-height: 70vh; */
 }
 /* FOOTER */
 footer{
