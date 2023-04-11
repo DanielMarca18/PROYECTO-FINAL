@@ -168,7 +168,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	transform: rotate(-5deg) scale(2);
 }
 
-@
 
 
 
@@ -317,7 +316,7 @@ button:hover {
   
   /*  media query tarjetas */
 
-  media screen and (max-width: 900px) {
+  @media screen and (max-width: 900px) {
     .contenedor-card-item:hover img {
       top: -30px;
       -webkit-transform: rotate(-5deg) scale(1.3);
