@@ -62,7 +62,7 @@ body {
 
 /* MAIN HERO*/
 
-.hero{
+.hero {
   padding: 5vh 5vw;
   display: flex;
   justify-content: space-between;
@@ -72,7 +72,7 @@ body {
   
 }
 
-.hero .img-container{
+.hero .img-container {
   width: 75%;
   padding-right: 5vw;
 }
@@ -90,6 +90,41 @@ body {
 }
 
 .palabra_verde {
+  color: var(--color-verde);
+}
+
+/* SECTION NOSOTROS */
+.nosotros {
+  background-color: #3f3d56;
+  color: var(--color-verde);
+  padding: 5vh 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 20vh;
+}
+.nosotros p{
+  font-size: 30px;
+}
+
+.servicios {
+  background-color: #b9b4b4;
+  color: #3f3d56;
+  padding: 5vh 5vw; 
+  min-height: 50vh;
+}
+
+/* CONTACTO */
+.contacto {
+  background-color:#3f3d56;
+  color: var(--color-verde);
+  padding: 5vh 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 20vh;
+}
+.contacto a{
   color: var(--color-verde);
 }
 
