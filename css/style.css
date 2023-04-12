@@ -4,9 +4,13 @@ body {
   margin: 0; 
 }
 
+h1 {
+  text-align: left;
+}
+
 /* Barra de Navegación */
 .navbar {
-  background:  rgb(184, 238, 212);
+  background: #b8eed4;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -17,7 +21,7 @@ body {
   font-weight: bold;
   font-size: 25px;
   margin: 15px;
-  color: white;
+  color:#3f3d56;
   animation-name: left-to-right;
   animation-duration: 2s;
 }
@@ -29,7 +33,7 @@ body {
   font-weight: bold;
   font-size: 18px;
   margin: 15px;
-  color: white;
+  color: #3f3d56 ;
   text-decoration: none;
   position: relative;
 }
@@ -40,7 +44,7 @@ body {
   bottom: 0;
   width: 0;
   height: 2px;
-  background: white;
+  background: #3f3d56;
   transition: all 0.5s;
 }
 .nav_items a:hover::before{
@@ -53,9 +57,6 @@ body {
 /* MAIN */
 
 main{
-  background-image: url(/img/fondo.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
   min-height: 70vh;
   padding: 10vh 3vw;
   display: flex;
@@ -71,7 +72,7 @@ footer{
   height: 60px;
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: #3f3d56;
 }
 
 @keyframes left-to-right{
