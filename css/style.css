@@ -1,17 +1,21 @@
 
+:root{
+  --color-verde: #b8eed4;
+  ;
+}
+
 body {
   font-family:Arial, Helvetica, sans-serif;
   margin: 0; 
 }
 
-h1 {
-  text-align: left;
-}
+ h1 {
+    text-align: left;
+  }
 
 /* Barra de Navegación */
 .navbar {
-  width: 100%;
-  background: #b8eed4;
+  background: var(--color-verde);
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -55,17 +59,36 @@ h1 {
 .nav_toggle {
   display: none;
 }
+
 /* MAIN */
 
-main{
-  min-height: 70vh;
-  padding: 10vh 3vw;
+.hero{
+  padding: 5vh 5vw;
   display: flex;
-  flex-direction: column;
-  gap: 10vh;
+  justify-content: space-between;
   align-items: center;
+  min-height: 90vh;
 }
 
+.hero .img-container{
+  width: 35%;
+  padding-right: 5vw;
+}
+.hero .img-container img{
+  width: 100%;
+
+}
+
+h1{
+  font-size: 52px;
+}
+.hero-info p{
+  font-size: 20px;
+}
+
+.palabra_verde {
+  color: var(--color-verde);
+}
 
 /* FOOTER */
 footer{
@@ -210,4 +233,4 @@ button:hover {
     }
   }
   
-  
+ 
