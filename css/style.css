@@ -1,7 +1,8 @@
 
 :root{
   --color-verde: #b8eed4;
-  --colo-azulado: #3f3d56;
+  --color-azulado: #3f3d56;
+  --color-gris-oscuro: #807a7a;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 
 /* Barra de Navegación */
 .navbar {
-  background: var(--color-verde);
+  background: var(--color-gris-oscuro);
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -26,7 +27,7 @@ body {
   font-weight: bold;
   font-size: 40px;
   margin: 15px;
-  color:white;
+  color:var(--color-verde) ;
   animation-name: left-to-right;
   animation-duration: 2s;
   padding-left: 4vw;
@@ -39,7 +40,7 @@ body {
   font-weight: bold;
   font-size: 18px;
   margin: 15px;
-  color: #3f3d56 ;
+  color:var(--color-verde) ;
   text-decoration: none;
   position: relative;
 }
@@ -50,7 +51,7 @@ body {
   bottom: 0;
   width: 0;
   height: 2px;
-  background: #3f3d56;
+  background: var(--color-verde);
   transition: all 0.5s;
 }
 .nav_items a:hover::before{
@@ -93,9 +94,7 @@ body {
 .palabra_verde {
   color: var(--color-verde);
 }
-.palabra_azulado {
-  font-size: 40px;
-}
+
 
 /* SECTION NOSOTROS */
 .nosotros {
@@ -109,6 +108,7 @@ body {
 }
 .nosotros p{
   font-size: 30px;
+  text-align: justify;
 }
 
 .servicios {
@@ -117,6 +117,11 @@ body {
   padding: 5vh 5vw; 
   min-height: 50vh;
 }
+.informacion p {
+  font-size: 18px;
+  text-align: justify;
+}
+
 
 /* CONTACTO */
 .contacto {
@@ -131,11 +136,29 @@ body {
 .contacto a{
   color: var(--color-verde);
 }
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
 
 /* FOOTER */
 
 .footer-distributed{
-	background: #666;
+	background:var(--color-azulado);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -405,6 +428,7 @@ button:hover {
     }
     .nav_items a{
       text-align: center;
+      color: var(--color-azulado);
     }
     .nav_toggle {
       display: flex !important;
@@ -414,7 +438,7 @@ button:hover {
     .nav_toggle span{
       width: 30px;
       height: 4px;
-      background: white;
+      background:var(--color-verde);
       margin-bottom: 5px;
       border-radius: 2px;
       transform-origin: 5px 0px;
