@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root{
   --color-verde: #b8eed4;
   ;
@@ -146,9 +150,48 @@ body {
 }
 
 form .caja .inputContainer{
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   width: calc(100% / 2 - 20px);
 }
+
+.caja .inputContainer .datos{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.caja .inputContainer input, select{
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+form .comentar {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+form textarea {
+  width: 98%;
+  height: 60px; /* ajustar según la altura deseada */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  margin-bottom: 10px;
+  
+}
+
+/* form .comentar {
+  width: 45px;
+  height: 45px 0; 
+} */
 
 /* FOOTER */
 footer{
