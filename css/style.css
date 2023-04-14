@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 :root{
   --color-verde: #b8eed4;
   --color-azulado: #3f3d56;
@@ -130,20 +126,34 @@ body {
 /* CONTACTO */
 .contacto {
   background-color:#3f3d56;
-  padding: 10 px;
+ color: var(--color-verde);
+  padding: 5vh 5vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  flex-direction: column;
+  min-height: 20vh;
 }
-.contenedorUsuarios{
-  max-width: 700px;
+.contacto a{
+  color: var(--color-verde);
+}
+.caja {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+
+input, select, textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
   width: 100%;
-  background:#b9b4b4;
-  padding: 25px 30px;
-  border-radius: 10px;
-  color:#3f3d56;
 }
+
 textarea {
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -162,8 +172,17 @@ label {
   display: block;
   margin-bottom: 10px;
 }
+/* input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+} */
 
-.contenedorUsuarios h1{
+/* .contenedorUsuarios h1{
   font-size: 25px;
   font-weight: 500;
   position: relative;
@@ -185,9 +204,9 @@ form .caja .inputContainer{
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
-}
+} */
 
-.caja .inputContainer input, select{
+/* .caja .inputContainer input, select{
   height: 30px;
   width: 100%;
   outline: none;
@@ -197,15 +216,15 @@ form .caja .inputContainer{
   font-size: 16px;
   border-bottom-width: 2px;
   transition: all 0.3s ease;
-}
-form .comentar {
+} */
+/* form .comentar {
   display: block;
   font-weight: 500;
   margin-bottom: 5px;
-}
-form textarea {
+} */
+/* form textarea {
   width: 98%;
-  height: 60px; /* ajustar según la altura deseada */
+  height: 60px; 
   border-radius: 5px;
   border: 1px solid #ccc;
   padding-left: 15px;
@@ -213,7 +232,7 @@ form textarea {
   border-bottom-width: 2px;
   margin-bottom: 10px;
   
-}
+} */
 
 /* form .comentar {
   width: 45px;
